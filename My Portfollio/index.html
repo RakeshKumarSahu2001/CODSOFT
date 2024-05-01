@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="module" src="index.js"></script>
+	<title>MY PORTFOLLIO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo">
+		 <span>R</span>akesh.
+		</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#Skills">Skills</a></li>
+			<li><a href="#Education">Education</a></li>
+			<li><a href="#Project">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"><button>Click</button></div>
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I am</span>
+			</div>
+			<h1>Rakesh Kumar Sahu</h1>
+			<h3><span>Full-Stack</span> Developer.</h3>
+			<p>I am a MCA fresher.</p>
+			<div class="button">
+				<a href="#about" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/Rakesh Image.jpeg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Full-Stack Developer!</h4>
+			<p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for
+				learning I am dedicated to delivering high-quality results. With a positive attitude and a growth
+				mindset, I am ready to make a meaningful contribution and achieve great things.
+			</p>
+			<a href="img/Rakesh Kumar Sahu Resume.pdf" download class="btn">Resume</a>
+		</div>
+	</section>
+
+	<section class="services" id="Skills">
+		<div class="main-text">
+			<h2><span>My</span> Skills</h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<h3>Frontend</h3>
+				<div class="box-container">
+					<button class="btn">HTML</button>
+					<button class="btn">CSS</button>
+					<button class="btn">JavaScript</button>
+					<button class="btn">React</button>
+					<button class="btn">Bootstrap</button>
+					<button class="btn">Tailwind</button>
+				</div>
+			</div>
+
+
+			<div class="box">
+				<h3>Backend</h3>
+				<div class="box-container">
+					<button class="btn">Node Js</button>
+					<button class="btn">Express Js</button>
+					<button class="btn">Python</button>
+					<button class="btn">MongoDB</button>
+					<button class="btn">MySQL</button>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+	<section class="services" id="Education">
+		<div class="main-text">
+			<h2><span>My</span> Education</h2>
+		</div>
+		<div class="education-content">
+
+			<div class="edu-box">
+				<div class="box-info">
+					<div class="box-info-img"><img src="img/Nist.jpg" alt=""></div>
+					<div class="box-info-detail">
+						<h1>National Institute of Science And Technology</h1>
+						<h6>MCA</h6>
+						<h6>2022-2024</h6>
+					</div>
+				</div>
+				<div class="result-info">
+					<h3>Grade:8.85 CGPA</h3>
+					<p>I completed Bachelor Of Science in Mathematics at Berhampur University, Berhampur.</p>
+				</div>
+			</div>
+
+			<div class="edu-box">
+				<div class="box-info">
+					<div class="box-info-img"><img src="img/BinayakClg.jpg" alt=""></div>
+					<div class="box-info-detail">
+						<h1>Binayak Acharya Degree College</h1>
+						<h6>B Sc(Physics)</h6>
+						<h6>2019-2022</h6>
+					</div>
+				</div>
+				<div class="result-info">
+					<h3>Grade:7.29 CGPA</h3>
+					<p>I completed Bachelor Of Science in Physics at Berhampur University, Berhampur.</p>
+				</div>
+			</div>
+
+			<div class="edu-box">
+				<div class="box-info">
+					<div class="box-info-img"><img src="img/DuraClg.webp" alt=""></div>
+					<div class="box-info-detail">
+						<h1>Rama Narayan Degree College</h1>
+						<h6>+2</h6>
+						<h6>2017-2019</h6>
+					</div>
+				</div>
+				<div class="result-info">
+					<h3>Grade:67.5 %</h3>
+					<p>I completed my intermediate(12th) at Rama Narayan Degree College, Ganjam.</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="portfolio" id="Project">
+		<div class="main-text">
+			<h2><span>Latest&nbsp</span>Project</h2>
+		</div>
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/weatherimg.png">
+				<div class="layer">
+					<h5>Weather Detection</h5>
+					<p>It uses react hooks like useEffect,useState etc.Fatch data from api and return the weather of the
+						location.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/currencyconvertorimg.png">
+				<div class="layer">
+					<h5>Currency Convertor</h5>
+					<p>It uses react hooks like useEffect,useState etc.Fatch data from api and return the converted
+						amount based on the convertion rate of the place.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Dicegameimg.png">
+				<div class="layer">
+					<h5>Dice Game</h5>
+					<p>It uses react hooks like useEffect,useState etc and randomly generate a no.(1-6) and the user
+						have to predict the number.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/calculator.png">
+				<div class="layer">
+					<h5>Calculator</h5>
+					<p>Calculator website.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If you have any project in your mind.</h4>
+			<p> Profession Full-Stack Developer.Expert in website development.</p>
+			<div class="list">
+				<li>Linkdin: <a href="https://www.linkedin.com/in/rakesh-kumar-sahu22/" class="linkvalue">&nbspRakesh Kumar Sahu</a></li>
+				<li>Gmail: <a href="#" class="linkvalue">&nbsprakeshkumarsahu187gmail.com</a></li>
+
+			</div>
+
+
+		</div>
+		<div class="contact-form">
+			<form>
+				<input type="name" id="name" placeholder="Your Name " required>
+				<input type="email" id="email" placeholder="Your Email " required>
+				<input type="number" id="phno" placeholder="your Mobile Number" required>
+				<textarea name="" cols="35" rows="10" id="massage" placeholder="How Can I Help You "
+					required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+
+		</div>
+	</section>
+
+
+</body>
+
+</html>
